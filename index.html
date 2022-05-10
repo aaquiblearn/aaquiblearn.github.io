@@ -12,7 +12,7 @@
   <script>
 
   window.onload = function() {
-    document.getElementById("zipCode").focus();
+    document.getElementById("link1").focus();
   }
 
     let voiceOver = function(){
@@ -37,10 +37,19 @@
     <div class="card">
       <div class="card-header bg-primary">Voice Over Test</div>
       <div class="card-body">
+
+        <div class="row">
+          <div class="col-lg-12 col-sm-12 col-xs-12 col-md-12">
+              <a href="test1.html" id="link1"> Test1</a> <br/>
+
+              <a href="test2.html" id="link2"> Test2</a> 
+          </div>
+        </div>
+
         <div class="row">
           <div class="col-lg-12 col-xs-12 col-md-12 col-sm-12">
             <label for="zipCode">Zip Code:</label><br>
-            <input type="text" id="zipCode" name="zipCode" value="55005" aria-describedby="zipCode" autofocus><br>
+            <input type="text" id="zipCode" name="zipCode" value="55005" aria-describedby="zipCode"><br>
           </div>
           <div class="col-lg-12 col-xs-12 col-md-12 col-sm-12">
             <label for="routingNo">Routing Number:</label><br>
